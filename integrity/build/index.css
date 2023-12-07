@@ -1,0 +1,154 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  background-color: #000000;
+  overflow-x: hidden;
+}
+
+/* Global styles for links */
+a {
+  color: #ff0000;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #ff6666;
+  text-decoration: underline;
+}
+
+/* Header styles */
+header {
+  background-color: #000000;
+  padding: 20px;
+}
+
+.navbar-brand {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff6666;
+}
+
+/* Logo styles */
+.logo img {
+  max-width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Main content styles */
+main {
+  padding: 40px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+
+  main {
+    padding: 20px;
+  }
+  
+  /* Additional responsive styles for specific components if needed */
+  .social-icons {
+    /* Update styles for smaller screens */
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust spacing between icons for smaller screens */
+    margin-left: 0; /* Remove any unnecessary margins */
+  }
+
+  .social-icons a{
+    transition: 1s ease;
+  }
+
+  .social-icons a:hover{
+    color: lightseagreen;
+    background-color: lightseagreen;
+  }
+
+/* Update the styles for increased spacing and size */
+.social-icons a {
+  margin-right: 15px; /* Increase the spacing between icons */
+}
+
+.social-icons .icon {
+  font-size: 24px; /* Increase the font size of the icons */
+}
+
+/* Add hover animation with gradient effect */
+.social-icons .icon {
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.social-icons .icon:hover {
+  background: linear-gradient(to right, red, blue); /* Red to blue gradient */
+  -webkit-background-clip: text; /* Apply gradient as text fill */
+  -webkit-text-fill-color: transparent; /* Hide the original text color */
+}
+
+
+
+/* ServiceCard.css */
+/* Define the hover effect */
+.hover-effect {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Scale the card slightly on hover */
+.hover-effect:hover {
+  transform: scale(1.05);
+}
+
+/* You can add additional styles for more elaborate hover effects like box shadows, opacity changes, etc. */
+
+
+  /* Adjust other styles as needed for responsiveness */
+}

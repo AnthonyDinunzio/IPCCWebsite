@@ -40,10 +40,12 @@
   font-size: 18px;
   color: white;
   transition: 1s ease;
+  text-decoration: none;
 }
 
 .nav-link:hover{
   color: red;
+  text-decoration: none;
 }
 
 h3{
