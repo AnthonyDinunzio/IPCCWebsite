@@ -1,0 +1,107 @@
+/* Resetting default margins and paddings */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #222;
+    padding: 15px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Logo styles */
+  .logo {
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .logo img {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  /* Summary section styles */
+  .summary-section {
+    padding: 50px 0;
+  }
+  
+  .summary-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Certifications section styles */
+  .certifications-section {
+    padding: 50px 0;
+  }
+  
+  .certifications-section .card {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Contact section styles */
+  .contact-section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact-section p {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+/* Update the styles for increased spacing and size */
+.social-icons a {
+  margin-right: 15px; /* Increase the spacing between icons */
+}
+
+.social-icons .icon {
+  font-size: 24px; /* Increase the font size of the icons */
+}
+
+/* Add hover animation with gradient effect */
+.social-icons .icon {
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.social-icons .icon:hover {
+  background: linear-gradient(to right, red, blue); /* Red to blue gradient */
+  -webkit-background-clip: text; /* Apply gradient as text fill */
+  -webkit-text-fill-color: transparent; /* Hide the original text color */
+}
+  

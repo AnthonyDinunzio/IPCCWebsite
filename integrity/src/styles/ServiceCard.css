@@ -1,0 +1,19 @@
+/* Define the hover effect */
+.hover-effect {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Scale the card slightly on hover */
+  .hover-effect:hover {
+    transform: scale(1.05);
+  }
+
+.contact-btn{
+  color: black;
+  font-size: larger;
+  font-weight: 600;
+  font-style: none;
+  text-decoration: none;
+}

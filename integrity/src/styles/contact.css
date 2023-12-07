@@ -1,0 +1,43 @@
+/* contactForm.css */
+.contact-form-container {
+  background: rgb(250,4,4);
+    background: linear-gradient(90deg, rgba(250,4,4,1) 0%, rgba(0,0,0,1) 91%);
+    padding: 50px 20px;
+    border: 4px solid black;
+    border-radius: 10%;
+    max-width: 650px;
+    position: relative;
+    left: 330px;
+  }
+  
+  .form-column {
+    padding: 30px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-column {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-input {
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background: black;
+    color: white;
+    /* Add other input styles as needed */
+  }
+  
+  .submit-button {
+    width: 100%;
+    margin-top: 20px;
+    /* Add other button styles as needed */
+  }
+  
+  .contact-info {
+    text-align: center;
+  }
+  

@@ -1,0 +1,13 @@
+.learn-btn{
+    font-style: none;
+    text-decoration: none;
+    background: white;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 1s ease;
+}
+
+.learn-btn:hover{
+    color: crimson;
+}

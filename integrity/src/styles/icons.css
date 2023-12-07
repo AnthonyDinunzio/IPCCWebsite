@@ -1,0 +1,58 @@
+.icon-con{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Update the styles for increased spacing and size */
+.social-icons .icon {
+  position: relative;
+  margin-right: 350px;
+  left: 180px;
+  font-size: 24px; /* Increase the font size of the icons */
+}
+
+/* Add hover animation with gradient effect */
+.social-icons .icon {
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.social-icons .icon:hover {
+  background: red;
+  color: red;
+  -webkit-background-clip: text; /* Apply gradient as text fill */
+  -webkit-text-fill-color: transparent; /* Hide the original text color */
+}
+
+.site-title{
+  color: white;
+  transition: 1s ease
+}
+
+.site-title:hover{
+  color: red;
+}
+
+.nav-link{
+  margin: 12px;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  transition: 1s ease;
+}
+
+.nav-link:hover{
+  color: red;
+}
+
+h3{
+  font-size: 48px;
+  font-weight: 700;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
